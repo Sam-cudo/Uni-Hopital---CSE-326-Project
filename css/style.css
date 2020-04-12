@@ -1,0 +1,288 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+
+/* Every Page Helpline Box-----------------------------------------------*/
+
+.top {
+    width: 100%;
+    background-color: darkorange;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.top div {
+    width: 1200px;
+    color: white;
+    background-color: darkorange;
+    font-family: calibri;
+    padding: 10px;
+    text-align: right;
+}
+
+
+/* Every Page Uni Hospital Logo ANd Navigation Bar---------------------*/
+
+.logo {
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.logo div {
+    width: 1200px;
+    font-family: calibri;
+    padding: 10px;
+    text-align: left;
+}
+
+.logo div table a {
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.logo div table a:hover {
+    color: orange;
+    border-bottom: 2px solid moccasin;
+}
+
+
+/* To Make Navigation Bar Fixed while scrolling*/
+
+.sticky {
+    top: -10;
+    position: fixed;
+}
+
+
+/*Homepage(index)----------------------------------------------------------*/
+
+.middle {
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.middle .igl {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 400px;
+}
+
+.box {
+	justify-content: flex-end;
+    width: 100px;
+    position: relative;
+    top: 300px;
+    right: 300px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.7;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 300px;
+    background-color: #dddddd;
+    margin: 10px;
+}
+
+.tag {
+    color: white;
+    left: 200px;
+    top: 350px;
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+/*In All Pages Expect Index And Doctor for contents------------------------*/
+
+.bottom {
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.bottom div {
+    width: 1200px;
+    color: #fff;
+    font-family: calibri;
+    text-align: right;
+}
+
+.bottom div table {
+    padding-top: 30px;
+    width: 1100px;
+    text-align: justify;
+    color: gray;
+    font-size: 20px;
+}
+
+.bottom_up {
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.bottom_up div {
+    padding-top: 20px;
+    width: 1200px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bottom_up div table {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: calibri;
+}
+
+
+/*Every Page Bottom credit box-------------------------------------------*/
+
+.nav_down {
+    width: 100%;
+    background-color: darkorange;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.nav_down div {
+    width: 1200px;
+    color: white;
+    background-color: black;
+    font-family: calibri;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Appointment Page Details Filling --------------------------------------*/
+
+.inp {
+    padding: 12px;
+    width: 250px;
+}
+
+select {
+    padding: 12px;
+    width: 250px;
+}
+
+textarea {
+    padding: 50px;
+    width: 550px;
+}
+
+
+/*Book Appointment Button*/
+
+#bt1 {
+    width: 550px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+}
+
+
+/* Doctor Page Box Containg Doctor Details--------------------------------*/
+
+.container {
+    display: flex;
+    background-color: moccasin;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 20px;
+    background: white;
+    width: 22%;
+    height: 522px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Book appointment Button*/
+
+.bt2 {
+    width: 230px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: orange;
+}
+
+
+/*Service Page All Department links---------------------------------------*/
+
+
+/* unvisited link */
+
+a:link {
+    color: gray;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: gray;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: darkorange;
+}
+
+
+/* selected link */
+
+a:active {
+    color: gray;
+}
+
+
+/*Emergency page CSS--------------------------------------------------------*/
+
+
+/*Detail Filling Box*/
+
+.emr {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.emr input {
+    padding: 10px;
+    width: 400px;
+}
+
+
+/*Call Ambulance Button */
+
+#bt3 {
+    width: 500px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+}
