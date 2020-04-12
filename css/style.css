@@ -73,9 +73,8 @@
 }
 
 .box {
-	justify-content: flex-end;
     width: 100px;
-    position: relative;
+    position: absolute;
     top: 300px;
     right: 300px;
     display: flex;
@@ -96,7 +95,7 @@
     color: white;
     left: 200px;
     top: 350px;
-    position: relative;
+    position: absolute;
     font-family: sans-serif;
     text-align: center;
     font-size: 35px;
